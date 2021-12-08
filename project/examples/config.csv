@@ -1,0 +1,3 @@
+section,env,,,,train,,,,,,,,,,,,unity,,,,,,,,path,
+key,env,time_scale,width,height,n_episode,max_time_step,gamma,train_start,learning_rate,epsilon,epsilon_start,epsilon_end,exploration_steps,batch_size,target_update_period,reward_shaping,hunger_loss_rate,thirst_loss_rate,num_hunger_resource,num_thirst_resource,hunger_resource_energy,thirst_resource_energy,move_speed,turn_speed,load_model,tag
+sample(date time),1.0,15,50,50,2000,30000,0.95,1000,0.0001,1.0,0.8,0.1,209000,12,5000,1,0.004,0.004,50,50,3,3,6,200,,dqn
